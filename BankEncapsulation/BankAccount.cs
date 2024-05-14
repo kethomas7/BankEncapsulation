@@ -24,7 +24,7 @@ namespace BankEncapsulation
             moneyAdded = Double.Parse(Console.ReadLine());
          
             balance += moneyAdded ;
-            Console.WriteLine($"Remaining Balance: {balance}");
+            Console.WriteLine($"Current Balance: {balance}");
         }
 
         public double GetBalance()
@@ -38,7 +38,7 @@ namespace BankEncapsulation
             moneyNeeded = Double.Parse(Console.ReadLine());
 
             balance -= moneyNeeded;
-            Console.WriteLine($"Remaining Balance: {balance}");
+            Console.WriteLine($"Current Balance: {balance}");
         }
 
 
